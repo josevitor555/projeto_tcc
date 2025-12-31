@@ -13,6 +13,9 @@ import AuthPage from './pages/AuthPage';
 // 2.Página de Seleção de Liderança
 import LeadershipSelection from './pages/LeadershipSelection';
 
+// Componente MainGame
+import MainGame from './pages/MainGame';
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -26,6 +29,9 @@ const App = () => {
 
         {/* Rota Para a Página de Seleção de Liderança */}
         <Route path="/selecao-de-lideranca" element={<LeadershipSelection />} />
+
+        {/* Rota Para o Componente Principal (Jogo) - Tela de Chat */}
+        <Route path="/jogo" element={<MainGame />} />
       </Routes>
     </BrowserRouter>
   );

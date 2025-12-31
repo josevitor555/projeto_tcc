@@ -1,5 +1,6 @@
 // import React from 'react';
 import styles from '../styles/LeadershipSelection.module.css';
+console.log(styles);
 
 const participants = [
     { name: 'João da Silva', id: '23435453', votes: '1/5', active: true },
