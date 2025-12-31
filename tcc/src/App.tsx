@@ -2,17 +2,32 @@
 // Estilos CSS
 import './App.css';
 
-// Componentes do Shadcn
-import { Button } from "@/components/ui/button";
+// Importar o React Route Dom para Roteamento de páginas
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// Componente principal da Aplicação
+// Importar páginas
+
+// 1.Página de Autenticação
+import AuthPage from './pages/AuthPage';
+
+// 2.Página de Seleção de Liderança
+import LeadershipSelection from './pages/LeadershipSelection';
+
 const App = () => {
-
   return (
-    <div className="app flex flex-col items-center justify-center h-screen gap-2">
-      <h1 className='text-black text-3xl font-semibold underline'> Bem vindo ao meu TCC! </h1>
-      <Button onClick={() => alert('Bem Vindo ao meu TCC! :D')}> Saiba Mais </Button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+
+        {/* Página Não Encontrada */}
+        <Route path="/" element={<AuthPage />} />
+
+        {/* Rota Para a Página de Autenticação */}
+        <Route path="/autenticacao" element={<AuthPage />} />
+
+        {/* Rota Para a Página de Seleção de Liderança */}
+        <Route path="/selecao-de-lideranca" element={<LeadershipSelection />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

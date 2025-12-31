@@ -1,0 +1,141 @@
+:root {
+    --bg-color: #94a887;
+    --card-bg: #edf4ba;
+    --text-primary: #386142;
+    --border-color: #386142;
+    --accent-color: #9caa3f;
+    --btn-hover: #5b9a4c;
+}
+
+.leadership-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.main-title {
+    color: var(--text-primary);
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.pixel-card-container {
+    background-color: var(--card-bg);
+    width: 720px;
+    max-width: 90vw;
+    padding: 30px;
+    border: 4px solid var(--border-color);
+    box-shadow:
+        -6px 0 0 0 var(--border-color),
+        6px 0 0 0 var(--border-color),
+        0 -6px 0 0 var(--border-color),
+        0 6px 0 0 var(--border-color);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    color: var(--text-primary);
+}
+
+.header-left h2 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.header-left span {
+    font-size: 1.7rem;
+    opacity: 0.8;
+}
+
+.group-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.participants-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.participant-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border: 4px solid var(--accent-color);
+    box-shadow:
+        -4px 0 0 0 var(--accent-color),
+        4px 0 0 0 var(--accent-color),
+        0 -4px 0 0 var(--accent-color),
+        0 4px 0 0 var(--accent-color);
+}
+
+.row-active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.row-inactive {
+    border-color: var(--text-primary);
+    box-shadow: -4px 0 0 0 var(--text-primary), 4px 0 0 0 var(--text-primary), 0 -4px 0 0 var(--text-primary), 0 4px 0 0 var(--text-primary);
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 40%;
+}
+
+.person-name {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+}
+
+.person-id {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    opacity: 0.7;
+}
+
+.vote-count {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+}
+
+.pixel-btn-leader {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: var(--card-bg);
+    color: var(--text-primary);
+    border: 2px solid var(--text-primary);
+    cursor: pointer;
+    box-shadow: 2px 2px 0px var(--text-primary);
+}
+
+.pixel-btn-leader:hover {
+    background-color: var(--btn-hover);
+    color: white;
+}
+
+.btn-selected {
+    background-color: var(--text-primary);
+    color: var(--card-bg);
+}
+
+body {
+  height: 100vh;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('../assets/adventure_time.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
