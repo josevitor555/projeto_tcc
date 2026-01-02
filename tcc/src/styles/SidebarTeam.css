@@ -1,0 +1,111 @@
+.sidebar-container {
+    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    /* Efeito pixelado externo (quina vazia) */
+    box-shadow: 
+        -4px 0 0 0 #394736, 
+        4px 0 0 0 #394736, 
+        0 -4px 0 0 #394736, 
+        0 4px 0 0 #394736;
+    margin: 4px;
+    overflow-y: auto;
+}
+
+.sidebar-title {
+    color: #394736; /* Cor principal de texto */
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px dashed #394736; /* Cor principal de texto */
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.groups-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.group-card {
+    background-color: #d1a364;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+    cursor: pointer;
+    
+    /* Borda pixelada individual */
+    box-shadow: 
+        -4px 0 0 0 #394736, 
+        4px 0 0 0 #394736, 
+        0 -4px 0 0 #394736, 
+        0 4px 0 0 #394736;
+    margin: 4px;
+    transition: background 0.2s;
+}
+
+.group-card:hover {
+    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+}
+
+.group-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #394736; /* Cor principal de borda */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 2px 2px 0px #394736; /* Cor principal de borda */
+}
+
+.group-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 14px;
+}
+
+.info-row-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.group-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #394736; /* Cor principal de texto */
+}
+
+.leader-name {
+    font-size: 1rem;
+    color: #4c8f4a; /* Cor de destaque */
+    text-transform: uppercase;
+}
+
+.info-row-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room-id {
+    font-size: 1rem;
+    color: #394736; /* Cor principal de texto */
+    opacity: 0.7; /* Mantém opacidade */ /* Mantém opacidade */
+}
+
+.player-count {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #d1a364; /* Cor de contraste para texto */
+    background-color: #394736; /* Cor principal de borda */
+    padding: 0 4px;
+}

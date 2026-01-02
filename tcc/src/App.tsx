@@ -2,6 +2,9 @@
 // Estilos CSS
 import './App.css';
 
+// Pixel Icon Library
+import '@hackernoon/pixel-icon-library/fonts/iconfont.css';
+
 // Importar o React Route Dom para Roteamento de páginas
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 

@@ -3,3 +3,11 @@
   font-family: 'Pixelify Sans', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* background padrão gravity falls */
+/* body {
+  background-color: #d1a364;
+} */

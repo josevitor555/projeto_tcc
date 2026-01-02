@@ -1,0 +1,130 @@
+/* Estilos do ProgressPanel */
+.progress-panel {
+    background-color: #d1a364;
+    border: 4px solid #394736;
+    box-shadow: 
+        -4px 0 0 0 #394736,
+        4px 0 0 0 #394736,
+        0 -4px 0 0 #394736,
+        0 4px 0 0 #394736;
+    margin: 4px;
+    color: #394736; /* Cor principal de texto */
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.progress-section {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #394736;
+    box-shadow: 
+        -2px 0 0 0 #394736,
+        2px 0 0 0 #394736,
+        0 -2px 0 0 #394736,
+        0 2px 0 0 #394736;
+    background-color: #f0e6d2;
+}
+
+.progress-section h3 {
+    color: #394736;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.xp-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #394736;
+    border: 1px solid #394736;
+    box-shadow: 
+        -1px 0 0 0 #394736,
+        1px 0 0 0 #394736,
+        0 -1px 0 0 #394736,
+        0 1px 0 0 #394736;
+    margin-bottom: 5px;
+}
+
+.xp-bar-fill {
+    height: 100%;
+    background-color: #4c8f4a;
+    width: 45%; /* Exemplo: 45% de XP */
+}
+
+.level-badge {
+    background-color: #4c8f4a;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: inline-block;
+    border: 1px solid #394736;
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.timer {
+    background-color: #394736;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid #394736;
+}
+
+.question-counter {
+    background-color: #4c8f4a;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid #394736;
+}
+
+.leaderboard-item {
+    padding: 5px 0;
+    border-bottom: 1px dashed #394736;
+}
+
+.leaderboard-item:last-child {
+    border-bottom: none;
+}
+
+.leader-name {
+    font-size: 1.2rem;
+}
+
+.leader-score {
+    font-weight: bold;
+    color: #4c8f4a;
+}
+
+.leader-leader {
+    color: #d1a364;
+    font-weight: bold;
+}
+
+.hint-icon {
+    color: #4c8f4a;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.hints-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}

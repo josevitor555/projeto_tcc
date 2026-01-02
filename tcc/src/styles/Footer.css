@@ -1,0 +1,20 @@
+/* Estilos do Footer */
+.footer {
+    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+    border: 4px solid #394736; /* Cor principal de borda */
+    box-shadow: 
+        -4px 0 0 0 #394736, /* Cor principal de borda */
+        4px 0 0 0 #394736, /* Cor principal de borda */
+        0 -4px 0 0 #394736, /* Cor principal de borda */
+        0 4px 0 0 #394736; /* Cor principal de borda */
+    margin: 4px;
+    color: #394736; /* Cor principal de texto */
+}
+
+.footer p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+}

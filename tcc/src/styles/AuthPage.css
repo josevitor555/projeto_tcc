@@ -1,33 +1,32 @@
 /* Estilos da Página de Autenticação */
-.container-bg {
-    min-height: 100vh;
-    width: 100vw;
+.authpage-screen {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    /* Mova o fundo para cá */
-    background-image: url('../assets/adventure_time.png');
+    /* background-image: url('../assets/gravity_falls.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
 
 .pixel-card {
-    background-color: #ddd9d5;
+    background-color: #d1a364;
     padding: 40px;
     position: relative;
-    border: 4px solid #5f4935;
+    border: 4px solid #394736;
     box-shadow:
-        -8px 0 0 0 #5f4935,
-        8px 0 0 0 #5f4935,
-        0 -8px 0 0 #5f4935,
-        0 8px 0 0 #5f4935;
+        -8px 0 0 0 #394736,
+        8px 0 0 0 #394736,
+        0 -8px 0 0 #394736,
+        0 8px 0 0 #394736;
     width: 520px;
     max-width: 90vw;
 }
 
 .pixel-title {
-    color: #5f4935;
+    color: #394736;
     text-align: center;
     margin-bottom: 30px;
     font-size: 24px;
@@ -40,22 +39,22 @@
 .pixel-label {
     display: block;
     font-size: 18px;
-    color: #5f4935;
+    color: #394736;
     margin-bottom: 8px;
 }
 
 .pixel-input {
     width: 100%;
     padding: 12px;
-    border: 4px solid #5f4935;
+    border: 4px solid #394736;
     background: white;
     outline: none;
     font-size: 16px;
     box-shadow:
-        -4px 0 0 0 #5f4935,
-        4px 0 0 0 #5f4935,
-        0 -4px 0 0 #5f4935,
-        0 4px 0 0 #5f4935;
+        -4px 0 0 0 #394736,
+        4px 0 0 0 #394736,
+        0 -4px 0 0 #394736,
+        0 4px 0 0 #394736;
 }
 
 .pixel-input select {
@@ -73,20 +72,20 @@
     width: 100%;
     margin-top: 20px;
     padding: 15px;
-    background-color: #5f4935;
-    color: #ddd9d5;
+    background-color: #394736;
+    color: #d1a364;
     border: none;
     cursor: pointer;
     font-size: 18px;
     box-shadow:
-        -4px 0 0 0 #5f4935,
-        4px 0 0 0 #5f4935,
-        0 -4px 0 0 #5f4935,
-        0 4px 0 0 #5f4935;
+        -4px 0 0 0 #394736,
+        4px 0 0 0 #394736,
+        0 -4px 0 0 #394736,
+        0 4px 0 0 #394735;
 }
 
 .pixel-button:hover {
-    background-color: #7fb048;
+    background-color: #4c8f4a;
 }
 
 .pixel-button:active {

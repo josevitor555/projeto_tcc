@@ -1,10 +1,11 @@
 // Importações
-import React from 'react';
+// import React from 'react';
+import '../../styles/Footer.css';
 
 // Componente do Rodapé
 const Footer = () => {
     return (
-        <footer className="col-span-8 row-start-10 border-2 border-black flex items-center justify-center font-bold bg-white">
+        <footer className="footer col-span-8 row-start-10 flex items-center justify-center">
             <p>© 2026 Pixel. Todos os direitos reservados.</p>
         </footer>
     );

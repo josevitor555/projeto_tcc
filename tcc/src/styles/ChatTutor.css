@@ -1,0 +1,133 @@
+/* Estilos do ChatTutor */
+.chat-tutor-container {
+    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+    display: flex;
+    flex-direction: column;
+
+    /* Borda Pixelada (Quina Vazia) */
+    box-shadow: 
+        -4px 0 0 0 #394736, 
+        4px 0 0 0 #394736, 
+        0 -4px 0 0 #394736, 
+        0 4px 0 0 #394736;
+    margin: 4px;
+    height: 100%;
+}
+
+.messages-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+}
+
+/* Estilo das Mensagens */
+.message {
+    max-width: 85%;
+    padding: 12px;
+    position: relative;
+    box-shadow: 
+        -2px 0 0 0 #394736, 
+        2px 0 0 0 #394736, 
+        0 -2px 0 0 #394736, 
+        0 2px 0 0 #394736;
+}
+
+.tutor-message {
+    align-self: flex-start;
+    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+    color: #394736; /* Cor principal de texto */
+}
+
+.group-message {
+    align-self: flex-end;
+    background-color: #4c8f4a; /* Cor de destaque para botões */
+    color: #394736; /* Cor principal de texto */
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    margin-bottom: 8px;
+    border-bottom: 1px dashed rgba(0,0,0,0.2);
+}
+
+.tutor-name {
+    font-size: 1.2rem;
+    font-weight: bold; 
+    color: #4c8f4a; /* Cor de destaque para botões */
+}
+
+.player-name {
+    font-size: 1.2rem;
+    font-weight: bold; 
+    color: #d1a364; /* Cor de contraste para texto */
+}
+
+/* Rodapé e Botão Especial */
+.chat-footer {
+    padding: 20px;
+    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+    display: flex;
+    justify-content: center;
+    border-top: 4px solid #394736; /* Cor principal de borda */
+}
+
+.pixel-action-btn {
+    background-color: #4c8f4a; /* Cor de destaque para botões */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 
+        -4px 0 0 0 #394736, 
+        4px 0 0 0 #394736, 
+        0 -4px 0 0 #394736, 
+        0 4px 0 0 #394736;
+    transition: transform 0.1s;
+}
+
+.pixel-action-btn:hover {
+    background-color: #394736; /* Cor principal de borda */
+    transform: scale(1.05);
+}
+
+.pixel-action-btn:active {
+    transform: translateY(4px);
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #394736; /* Cor principal de borda */
+    outline: none;
+    font-family: inherit;
+}
+
+.send-btn {
+    background-color: #394736; /* Cor principal de borda */
+    color: #d1a364; /* Cor de contraste */
+    padding: 10px 20px;
+    border: 2px solid #394736; /* Cor principal de borda */
+    cursor: pointer;
+    box-shadow: 
+        -2px 0 0 0 #394736, 
+        2px 0 0 0 #394736, 
+        0 -2px 0 0 #394736, 
+        0 2px 0 0 #394736;
+}
+
+.send-btn:hover {
+    background-color: #4c8f4a; /* Cor de destaque para botões */
+}
