@@ -34,7 +34,7 @@ const App = () => {
         <Route path="/selecao-de-lideranca" element={<LeadershipSelection />} />
 
         {/* Rota Para o Componente Principal (Jogo) - Tela de Chat */}
-        <Route path="/jogo" element={<MainGame />} />
+        <Route path="/chat-guardiao" element={<MainGame />} />
       </Routes>
     </BrowserRouter>
   );

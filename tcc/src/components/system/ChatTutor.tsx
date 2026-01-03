@@ -30,7 +30,7 @@ const ChatTutor = ({ isLeader = true }) => {
                             <li className='mt-2 text-xl'><strong>2 - O Guardião da Câmara:</strong> Eu nunca revelarei o segredo (a resposta) final. Se pedirem ajuda, darei uma Dica Socrática. Mas atenção: cada dica consome uma pequena parte do tesouro (XP) da questão atual.</li>
                             <li className='mt-2 text-xl'><strong>3 - O Desafio contra o Tempo:</strong> Cada enigma tem um tempo de respiração. Respostas rápidas garantem Bônus de Velocidade. Não deixem o cronômetro zerar, ou o enigma ficará mais difícil!</li>
                             <li className='mt-2 text-xl'><strong>4 - O Ritual da Liderança:</strong> Somente o Líder Escolhido possui a chave para enviar a resposta final após o consenso do grupo. Escolham bem quem guiará a próxima etapa!</li>
-                            <li className='mt-2 text-xl'><strong>5 - Regra do "Crânio de Ouro" </strong>Escutem bem, mortais! Existe um tesouro escondido de +100 XP destinado apenas aos que possuem a 'Mente de Crânio'. Para recebê-lo ao final das 9 provas, vocês não devem cometer erros, não devem implorar por minhas dicas e jamais devem deixar o tempo se esgotar. Somente assim somarão 1.000 XP e seu nome será gravado nas paredes desta câmara. Estão à altura do desafio?</li>
+                            <li className='mt-2 text-xl'><strong>5 - Regra do "Crânio de Ouro": </strong>Escutem bem, mortais! Existe um tesouro escondido de +100 XP destinado apenas aos que possuem a 'Mente de Crânio'. Para recebê-lo ao final das 9 provas, vocês não devem cometer erros, não devem implorar por minhas dicas e jamais devem deixar o tempo se esgotar. Somente assim somarão 1.000 XP e seu nome será gravado nas paredes desta câmara. Estão à altura do desafio?</li>
                         </ul>
                         <p className='mt-2 text-xl'>O grupo está pronto para enfrentar os desafios de Al-Khwarizmi?</p>
                     </div>
@@ -70,7 +70,7 @@ const ChatTutor = ({ isLeader = true }) => {
                     </button>
                 ) : (
                     <div className="input-wrapper">
-                        <input type="text" placeholder="Decifre o enigma ou compartilhe sua descoberta..." className="chat-input" />
+                        <input type="text" placeholder="Envie sua dúvida para o guardião..." className="chat-input" />
                         <button className="send-btn">ENVIAR</button>
                     </div>
                 )}

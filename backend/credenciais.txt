@@ -1,0 +1,8 @@
+Username (Nome de Usuário):
+caang2024119tads0019_db_user
+
+Senha para acessar o banco de dados:
+bK32VpgPMpDyHzL1
+
+String de conexão:
+mongodb+srv://caang2024119tads0019_db_user:bK32VpgPMpDyHzL1@meucluster.xdjsa7u.mongodb.net/?appName=meuCluster
