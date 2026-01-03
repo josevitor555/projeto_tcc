@@ -19,7 +19,7 @@ import Footer from '../components/system/Footer';
 // Componente do Jogo Principal
 const MainGame = () => {
     return (
-        <div className="grid grid-cols-8 grid-rows-10 gap-2 h-screen p-2 box-border bg-[#302e2b]">
+        <div className="grid grid-cols-8 grid-rows-10 gap-2 h-screen p-2 box-border bg-[#f5f5f5]">
             
             {/* Cabeçalho */}
             <Header />

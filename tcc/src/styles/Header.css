@@ -1,11 +1,11 @@
 /* Estilos do Header */
 .header {
-    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+    background-color: #ffffff; /* Fundo branco */
     box-shadow: 
-        0 -4px 0 0 #394736, /* Cor principal de borda */
-        0 4px 0 0 #394736, /* Cor principal de borda */
-        -4px 0 0 0 #394736, /* Cor principal de borda */
-        4px 0 0 0 #394736; /* Cor principal de borda */
+        0 -4px 0 0 #4d4d4d, /* Borda em tom suave de preto */
+        0 4px 0 0 #4d4d4d, /* Borda em tom suave de preto */
+        -4px 0 0 0 #4d4d4d, /* Borda em tom suave de preto */
+        4px 0 0 0 #4d4d4d; /* Borda em tom suave de preto */
     margin: 4px;
 }
 
@@ -22,17 +22,17 @@
     align-items: center;
     justify-content: flex-start;
     padding-left: 16px;
-    color: #394736; /* Cor principal de texto */
+    color: #4d4d4d; /* Texto em tom suave de preto */
 }
 
 .header-logo i {
     font-size: 1.5rem;
     margin-right: 10px;
-    color: #394736; /* Cor principal de texto */
+    color: #4d4d4d; /* Texto em tom suave de preto */
 }
 
 .header-logo h1 {
-    color: #394736; /* Cor principal de texto */
+    color: #4d4d4d; /* Texto em tom suave de preto */
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -52,14 +52,14 @@
 }
 
 .header-nav a {
-    color: #394736; /* Cor principal de texto */
+    color: #4d4d4d; /* Texto em tom suave de preto */
     text-decoration: none;
     font-size: 1.1rem;
     transition: color 0.2s;
 }
 
 .header-nav a:hover {
-    color: #4c8f4a; /* Cor de destaque para hover */
+    color: #5c9c58; /* Cor de destaque suave da paleta Gravity Falls */
 }
 
 .header-icons {
@@ -75,10 +75,10 @@
     border: none;
     cursor: pointer;
     font-size: 1.2rem;
-    color: #394736; /* Cor principal de texto */
+    color: #4d4d4d; /* Texto em tom suave de preto */
     transition: color 0.2s;
 }
 
 .header-icons button:hover {
-    color: #4c8f4a; /* Cor de destaque para hover */
+    color: #5c9c58; /* Cor de destaque suave da paleta Gravity Falls */
 }

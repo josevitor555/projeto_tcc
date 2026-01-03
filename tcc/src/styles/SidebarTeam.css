@@ -1,5 +1,5 @@
 .sidebar-container {
-    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+    background-color: #ffffff; /* Fundo branco */
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -7,20 +7,20 @@
 
     /* Efeito pixelado externo (quina vazia) */
     box-shadow: 
-        -4px 0 0 0 #394736, 
-        4px 0 0 0 #394736, 
-        0 -4px 0 0 #394736, 
-        0 4px 0 0 #394736;
+        -4px 0 0 0 #4d4d4d, 
+        4px 0 0 0 #4d4d4d, 
+        0 -4px 0 0 #4d4d4d, 
+        0 4px 0 0 #4d4d4d;
     margin: 4px;
     overflow-y: auto;
 }
 
 .sidebar-title {
-    color: #394736; /* Cor principal de texto */
+    color: #4d4d4d; /* Texto em tom suave de preto */
     font-size: 1.2rem;
     text-transform: uppercase;
     text-align: center;
-    border-bottom: 2px dashed #394736; /* Cor principal de texto */
+    border-bottom: 2px dashed #808080; /* Linha divisória em tom suave de cinza */
     padding-bottom: 8px;
     margin-bottom: 8px;
 }
@@ -32,7 +32,7 @@
 }
 
 .group-card {
-    background-color: #d1a364;
+    background-color: #f5f5f5; /* Fundo em tom suave de cinza */
     display: flex;
     align-items: center;
     padding: 10px;
@@ -41,27 +41,27 @@
     
     /* Borda pixelada individual */
     box-shadow: 
-        -4px 0 0 0 #394736, 
-        4px 0 0 0 #394736, 
-        0 -4px 0 0 #394736, 
-        0 4px 0 0 #394736;
+        -4px 0 0 0 #666666, 
+        4px 0 0 0 #666666, 
+        0 -4px 0 0 #666666, 
+        0 4px 0 0 #666666;
     margin: 4px;
     transition: background 0.2s;
 }
 
 .group-card:hover {
-    background-color: #d1a364; /* Cor principal da paleta Gravity Falls */
+    background-color: #e0e0e0; /* Tom suave de cinza para hover */
 }
 
 .group-avatar {
     width: 40px;
     height: 40px;
-    background-color: #394736; /* Cor principal de borda */
+    background-color: #4d4d4d; /* Tom suave de preto */
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    box-shadow: 2px 2px 0px #394736; /* Cor principal de borda */
+    box-shadow: 2px 2px 0px #333333; /* Tom mais escuro de preto para sombra */
 }
 
 .group-info {
@@ -81,12 +81,12 @@
 .group-name {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #394736; /* Cor principal de texto */
+    color: #4d4d4d; /* Texto em tom suave de preto */
 }
 
 .leader-name {
     font-size: 1rem;
-    color: #4c8f4a; /* Cor de destaque */
+    color: #5c9c58; /* Cor de destaque em tom suave da paleta Gravity Falls */
     text-transform: uppercase;
 }
 
@@ -98,14 +98,14 @@
 
 .room-id {
     font-size: 1rem;
-    color: #394736; /* Cor principal de texto */
+    color: #666666; /* Texto em tom suave de cinza */
     opacity: 0.7; /* Mantém opacidade */ /* Mantém opacidade */
 }
 
 .player-count {
     font-size: 1rem;
     font-weight: bold;
-    color: #d1a364; /* Cor de contraste para texto */
-    background-color: #394736; /* Cor principal de borda */
+    color: #d1a364; /* Mantém cor de contraste da paleta Gravity Falls */
+    background-color: #4d4d4d; /* Tom suave de preto para fundo */
     padding: 0 4px;
 }

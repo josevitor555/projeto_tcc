@@ -1,14 +1,14 @@
 /* Estilos do ProgressPanel */
 .progress-panel {
-    background-color: #d1a364;
-    border: 4px solid #394736;
+    background-color: #ffffff;
+    border: 4px solid #4d4d4d;
     box-shadow: 
-        -4px 0 0 0 #394736,
-        4px 0 0 0 #394736,
-        0 -4px 0 0 #394736,
-        0 4px 0 0 #394736;
+        -4px 0 0 0 #4d4d4d,
+        4px 0 0 0 #4d4d4d,
+        0 -4px 0 0 #4d4d4d,
+        0 4px 0 0 #4d4d4d;
     margin: 4px;
-    color: #394736; /* Cor principal de texto */
+    color: #333333; /* Cor principal de texto em tom suave */
     display: flex;
     flex-direction: column;
     font-weight: bold;
@@ -19,17 +19,17 @@
 .progress-section {
     margin-bottom: 15px;
     padding: 10px;
-    border: 2px solid #394736;
+    border: 2px solid #666666;
     box-shadow: 
-        -2px 0 0 0 #394736,
-        2px 0 0 0 #394736,
-        0 -2px 0 0 #394736,
-        0 2px 0 0 #394736;
-    background-color: #f0e6d2;
+        -2px 0 0 0 #666666,
+        2px 0 0 0 #666666,
+        0 -2px 0 0 #666666,
+        0 2px 0 0 #666666;
+    background-color: #f5f5f5;
 }
 
 .progress-section h3 {
-    color: #394736;
+    color: #4d4d4d;
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 1.2rem;
@@ -39,30 +39,30 @@
 .xp-bar-container {
     width: 100%;
     height: 20px;
-    background-color: #394736;
-    border: 1px solid #394736;
+    background-color: #808080;
+    border: 1px solid #666666;
     box-shadow: 
-        -1px 0 0 0 #394736,
-        1px 0 0 0 #394736,
-        0 -1px 0 0 #394736,
-        0 1px 0 0 #394736;
+        -1px 0 0 0 #666666,
+        1px 0 0 0 #666666,
+        0 -1px 0 0 #666666,
+        0 1px 0 0 #666666;
     margin-bottom: 5px;
 }
 
 .xp-bar-fill {
     height: 100%;
-    background-color: #4c8f4a;
+    background-color: #5c9c58;
     width: 45%; /* Exemplo: 45% de XP */
 }
 
 .level-badge {
-    background-color: #4c8f4a;
+    background-color: #5c9c58;
     color: white;
     padding: 3px 8px;
     border-radius: 4px;
     font-size: 1rem;
     display: inline-block;
-    border: 1px solid #394736;
+    border: 1px solid #4d4d4d;
 }
 
 .timer-container {
@@ -74,28 +74,28 @@
 }
 
 .timer {
-    background-color: #394736;
+    background-color: #4d4d4d;
     color: white;
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 1.2rem;
     font-weight: bold;
-    border: 1px solid #394736;
+    border: 1px solid #333333;
 }
 
 .question-counter {
-    background-color: #4c8f4a;
+    background-color: #5c9c58;
     color: white;
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 1.2rem;
     font-weight: bold;
-    border: 1px solid #394736;
+    border: 1px solid #4d4d4d;
 }
 
 .leaderboard-item {
     padding: 5px 0;
-    border-bottom: 1px dashed #394736;
+    border-bottom: 1px dashed #808080;
 }
 
 .leaderboard-item:last-child {
@@ -108,16 +108,16 @@
 
 .leader-score {
     font-weight: bold;
-    color: #4c8f4a;
+    color: #5c9c58;
 }
 
 .leader-leader {
-    color: #d1a364;
+    color: #d1a364; /* Mantém cor de destaque da paleta Gravity Falls para líder */
     font-weight: bold;
 }
 
 .hint-icon {
-    color: #4c8f4a;
+    color: #5c9c58;
     font-size: 1.2rem;
     margin-right: 5px;
 }
